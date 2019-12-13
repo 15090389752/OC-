@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C5437C023A0F24B0075E6DF /* LLToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C5437BF23A0F24B0075E6DF /* LLToast.m */; };
+		3C5437C923A248680075E6DF /* UIDevice+TFDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C5437C823A248680075E6DF /* UIDevice+TFDevice.m */; };
+		3C5437CC23A249BC0075E6DF /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C5437CB23A249BC0075E6DF /* FirstViewController.m */; };
 		3CC87D072394E6EB002C8BF5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CC87D062394E6EB002C8BF5 /* AppDelegate.m */; };
 		3CC87D0A2394E6EB002C8BF5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CC87D092394E6EB002C8BF5 /* ViewController.m */; };
 		3CC87D0D2394E6EB002C8BF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CC87D0B2394E6EB002C8BF5 /* Main.storyboard */; };
@@ -15,6 +18,7 @@
 		3CC87D152394E6ED002C8BF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CC87D142394E6ED002C8BF5 /* main.m */; };
 		3CC87D1F2394E6EE002C8BF5 /* OC____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CC87D1E2394E6EE002C8BF5 /* OC____Tests.m */; };
 		3CC87D2A2394E6EE002C8BF5 /* OC____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CC87D292394E6EE002C8BF5 /* OC____UITests.m */; };
+		9E39015C7889286CA4DDEF19 /* libPods-OC学习笔记.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE12F7364B9A5A4CB218F308 /* libPods-OC学习笔记.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C5437BE23A0F24B0075E6DF /* LLToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLToast.h; sourceTree = "<group>"; };
+		3C5437BF23A0F24B0075E6DF /* LLToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLToast.m; sourceTree = "<group>"; };
+		3C5437C723A248680075E6DF /* UIDevice+TFDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIDevice+TFDevice.h"; sourceTree = "<group>"; };
+		3C5437C823A248680075E6DF /* UIDevice+TFDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+TFDevice.m"; sourceTree = "<group>"; };
+		3C5437CA23A249BC0075E6DF /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		3C5437CB23A249BC0075E6DF /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		3CC87D022394E6EB002C8BF5 /* OC学习笔记.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OC学习笔记.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CC87D052394E6EB002C8BF5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3CC87D062394E6EB002C8BF5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +61,9 @@
 		3CC87D252394E6EE002C8BF5 /* OC学习笔记UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OC学习笔记UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CC87D292394E6EE002C8BF5 /* OC____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "OC____UITests.m"; sourceTree = "<group>"; };
 		3CC87D2B2394E6EE002C8BF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5DB61B0594C4ADF997C6A68 /* Pods-OC学习笔记.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OC学习笔记.release.xcconfig"; path = "Target Support Files/Pods-OC学习笔记/Pods-OC学习笔记.release.xcconfig"; sourceTree = "<group>"; };
+		C1E1CEB1A5B438EA9A6ED77C /* Pods-OC学习笔记.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OC学习笔记.debug.xcconfig"; path = "Target Support Files/Pods-OC学习笔记/Pods-OC学习笔记.debug.xcconfig"; sourceTree = "<group>"; };
+		FE12F7364B9A5A4CB218F308 /* libPods-OC学习笔记.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OC学习笔记.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E39015C7889286CA4DDEF19 /* libPods-OC学习笔记.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +92,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14933D067330AACD165CD303 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1E1CEB1A5B438EA9A6ED77C /* Pods-OC学习笔记.debug.xcconfig */,
+				A5DB61B0594C4ADF997C6A68 /* Pods-OC学习笔记.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3C4D328923A335A700878E0E /* 强制横竖屏 */ = {
+			isa = PBXGroup;
+			children = (
+				3C5437CA23A249BC0075E6DF /* FirstViewController.h */,
+				3C5437CB23A249BC0075E6DF /* FirstViewController.m */,
+				3C5437C723A248680075E6DF /* UIDevice+TFDevice.h */,
+				3C5437C823A248680075E6DF /* UIDevice+TFDevice.m */,
+			);
+			path = "强制横竖屏";
+			sourceTree = "<group>";
+		};
 		3CC87CF92394E6EB002C8BF5 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +119,8 @@
 				3CC87D1D2394E6EE002C8BF5 /* OC学习笔记Tests */,
 				3CC87D282394E6EE002C8BF5 /* OC学习笔记UITests */,
 				3CC87D032394E6EB002C8BF5 /* Products */,
+				14933D067330AACD165CD303 /* Pods */,
+				92491E9829A45CCD68CDA1C6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +137,9 @@
 		3CC87D042394E6EB002C8BF5 /* OC学习笔记 */ = {
 			isa = PBXGroup;
 			children = (
+				3C4D328923A335A700878E0E /* 强制横竖屏 */,
+				3C5437BE23A0F24B0075E6DF /* LLToast.h */,
+				3C5437BF23A0F24B0075E6DF /* LLToast.m */,
 				3CC87D052394E6EB002C8BF5 /* AppDelegate.h */,
 				3CC87D062394E6EB002C8BF5 /* AppDelegate.m */,
 				3CC87D082394E6EB002C8BF5 /* ViewController.h */,
@@ -132,6 +171,14 @@
 			path = "OC学习笔记UITests";
 			sourceTree = "<group>";
 		};
+		92491E9829A45CCD68CDA1C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE12F7364B9A5A4CB218F308 /* libPods-OC学习笔记.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +186,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3CC87D2E2394E6EE002C8BF5 /* Build configuration list for PBXNativeTarget "OC学习笔记" */;
 			buildPhases = (
+				40388C7F584B66FE0F3F3F16 /* [CP] Check Pods Manifest.lock */,
 				3CC87CFE2394E6EB002C8BF5 /* Sources */,
 				3CC87CFF2394E6EB002C8BF5 /* Frameworks */,
 				3CC87D002394E6EB002C8BF5 /* Resources */,
@@ -257,14 +305,42 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		40388C7F584B66FE0F3F3F16 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OC学习笔记-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3CC87CFE2394E6EB002C8BF5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3CC87D0A2394E6EB002C8BF5 /* ViewController.m in Sources */,
+				3C5437CC23A249BC0075E6DF /* FirstViewController.m in Sources */,
 				3CC87D152394E6ED002C8BF5 /* main.m in Sources */,
+				3C5437C923A248680075E6DF /* UIDevice+TFDevice.m in Sources */,
 				3CC87D072394E6EB002C8BF5 /* AppDelegate.m in Sources */,
+				3C5437C023A0F24B0075E6DF /* LLToast.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,9 +509,11 @@
 		};
 		3CC87D2F2394E6EE002C8BF5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1E1CEB1A5B438EA9A6ED77C /* Pods-OC学习笔记.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5JV3AY27JS;
 				INFOPLIST_FILE = "OC学习笔记/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -443,15 +521,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.OC----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		3CC87D302394E6EE002C8BF5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5DB61B0594C4ADF997C6A68 /* Pods-OC学习笔记.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5JV3AY27JS;
 				INFOPLIST_FILE = "OC学习笔记/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -459,7 +539,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.OC----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

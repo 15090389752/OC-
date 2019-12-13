@@ -15,8 +15,4 @@
 /** Toast显示(默认中间,时长可调节) */
 + (void)showWithText:(NSString *)text duration:(CGFloat)duration;
 
-/** Toast显示(显示底部,默认时长3s) */
-+ (void)showBottomWithText:(NSString *)text;
-
-
 @end

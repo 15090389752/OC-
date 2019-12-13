@@ -6,12 +6,15 @@
 //
 
 #import "LLToast.h"
-
+/** tabbar高度 */
+#define tabbarH ([[UIApplication sharedApplication] statusBarFrame].size.height>20?83.0f:49.0f)
+#define Screenwidth [UIScreen mainScreen].bounds.size.width
+#define Screenheight [UIScreen mainScreen].bounds.size.height
 @interface LLToast (){
     //显示的字符串
     NSString *_text;
     //显示的Label
-    UILabel *_contentView;
+    UIView *_contentView;
     //显示的时间
     CGFloat _duration;
     
@@ -23,35 +26,20 @@
 
 -(id)initWithText:(NSString* )text{
     if (self = [super init]) {
+        _contentView = [[UIView alloc]initWithFrame:CGRectMake( Screenwidth - 30, 40, 30, Screenheight)];
+        CGFloat viewWitd = _contentView.bounds.size.width;
+        CGFloat viewHeight = _contentView.bounds.size.height;
+        UIImageView *iconImageView = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, viewWitd, viewWitd)];
+        iconImageView.backgroundColor = [UIColor redColor];
+        [_contentView addSubview:iconImageView];
         
-        _text = [text copy];
-        
-        UIFont* font = [UIFont systemFontOfSize:15.0f];
-        
-        CGSize textSize = [text boundingRectWithSize:CGSizeMake(280, MAXFLOAT) options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName : font} context:nil].size;
-        
-        _contentView = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, textSize.width + 20, textSize.height + 15)];
-        
-        _contentView.backgroundColor = [[UIColor blackColor]colorWithAlphaComponent:0.7];
-        
-        _contentView.textColor = [UIColor whiteColor];
-        
-        _contentView.textAlignment = NSTextAlignmentCenter;
-        
-        _contentView.font = font;
-        
-        _contentView.text = text;
-        
-        _contentView.numberOfLines = 0;
-        
-        _contentView.layer.cornerRadius = 5;
-        
-        _contentView.layer.masksToBounds = YES;
-        
-//        _contentView.layer.borderWidth = 1.0f;
-//
-//        _contentView.layer.borderColor = [[UIColor blackColor]colorWithAlphaComponent:0.7].CGColor;
-        
+        UILabel *titleLabel = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, viewHeight-10, 30)];
+        titleLabel.text = @"djhfkajhjdkhfjkhsjkdhfjkh";
+        titleLabel.backgroundColor = [UIColor blueColor];
+        titleLabel.transform = CGAffineTransformMakeRotation(M_PI_2);
+        titleLabel.frame = CGRectMake(0, CGRectGetMaxY(iconImageView.frame), viewWitd, viewHeight - viewWitd);
+        [_contentView addSubview:titleLabel];
+        _contentView.backgroundColor = [[UIColor yellowColor]colorWithAlphaComponent:0.7];
         _duration = 3.0f; //提示框显示时间
     }
     return self;
@@ -65,73 +53,37 @@
 -(void)show{
     
     UIWindow* window = [UIApplication sharedApplication].keyWindow;
-    
-    _contentView.center = window.center;
-    
     [window addSubview:_contentView];
     //执行显示方法
     [self showAnimation];
     //几秒种后自动消失
     [self performSelector:@selector(hideAnimation) withObject:nil afterDelay:_duration];
-    
 }
 //改变toast的透明度
 -(void)showAnimation{
-    
     [UIView animateWithDuration:0.3 animations:^{
-        
-        _contentView.alpha = 1.0f;
-        
+        self->_contentView.alpha = 1.0f;
     }];
 }
 //先改变控件的透明度再移除控件
 -(void)hideAnimation{
-    
     [UIView animateWithDuration:_duration animations:^{
-        
-        _contentView.alpha = 0.0f;
-        
+        self->_contentView.alpha = 0.0f;
     } completion:^(BOOL finished) {
-        
-        [_contentView removeFromSuperview];
-        
+        [self->_contentView removeFromSuperview];
     }];
 }
-//底部展示toast
--(void)showBottom{
-    
-    UIWindow *window = [UIApplication sharedApplication].keyWindow;
-    
-    _contentView.center = CGPointMake(window.center.x, [UIScreen mainScreen].bounds.size.height - tabbarH - 40);
-    
-    [window addSubview:_contentView];
-    
-    [self showAnimation];
-    
-    [self performSelector:@selector(hideAnimation) withObject:nil afterDelay:_duration];
-}
+
 #pragma mark ------- 公共方法
 //直接在屏幕中间显示toast，默认3秒
 +(void)showWithText:(NSString *)text{
-    
     [self showWithText:text duration:3.0f];
 }
 //可以控制显示时间
 +(void)showWithText:(NSString *)text duration:(CGFloat)duration{
-    
     LLToast *toast = [[LLToast alloc]initWithText:text];
-    
     [toast setDuration:duration];
-    
     [toast show];
 }
-//在底部显示toast，不可控时间，默认两秒
-+(void)showBottomWithText:(NSString *)text{
-    
-    LLToast *toast = [[LLToast alloc]initWithText:text];
-    
-    [toast setDuration:2.0f];
-    
-    [toast showBottom];
-}
+
 @end

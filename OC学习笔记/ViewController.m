@@ -7,6 +7,14 @@
 //
 
 #import "ViewController.h"
+//#import "UILabel+Mylabel.h"
+#import "UIDevice+TFDevice.h"
+#import "LLToast.h"
+#import "AppDelegate.h"
+#define iphoneX ([[UIApplication sharedApplication] statusBarFrame].size.height>20?YES:NO)
+#define kNavBarHeight (iphoneX ? 88.0 : 64.0)
+
+#import "FirstViewController.h"
 
 @interface ViewController ()
 
@@ -14,10 +22,30 @@
 
 @implementation ViewController
 
+
+- (IBAction)showBtn:(id)sender {
+//    [LLToast showWithText:@"nilao" duration:2.0];
+    
+    FirstViewController *firstVC = [[FirstViewController alloc]init];
+    [self.navigationController pushViewController:firstVC animated:YES];
+    
+    
+    
+}
+
+
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+  
+
+   
+   
 }
+
+
 
 
 @end
