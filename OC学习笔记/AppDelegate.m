@@ -8,6 +8,11 @@
 
 #import "AppDelegate.h"
 #import "AlipayManager.h"
+#import "WXManager.h"
+#import "WXApi.h"
+
+#define  WXAPPID  @"wxd930ea5d5a258f4f"
+
 @interface AppDelegate ()
 
 @end
@@ -16,7 +21,10 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    //注册微信
+//    [WXApi registerApp:WEXITED universalLink:UNIVERSAL_LINK];
+    
     return YES;
 }
 
@@ -37,7 +45,11 @@
 }
 
 - (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options{
+    //支付宝
     [[AlipayManager sharedManager]PayResoult:url];
+    
+    //微信
+    [WXApi handleOpenURL:url delegate:[WXManager sharedManager]];
     return YES;
 }
 

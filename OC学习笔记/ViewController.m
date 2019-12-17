@@ -39,6 +39,15 @@
 
 
 
+- (IBAction)wxBtn:(id)sender {
+    
+    
+    
+}
+
+
+
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];

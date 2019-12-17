@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
@@ -16,43 +16,59 @@
 			);
 			name = "AlipaySDK-iOS";
 		};
+		8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4AF0DF2249DC5CF1F6B67BE5469CE54C /* Build configuration list for PBXAggregateTarget "WechatOpenSDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = WechatOpenSDK;
+		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		0E62A7BD7A3829532433091FDE652B95 /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = C31E461D066238DA6CD49128EE3C08FB /* MJProperty.m */; };
-		1609407914B4474BD6125FC9C2BCDE67 /* MJPropertyType.h in Headers */ = {isa = PBXBuildFile; fileRef = D2561CEA6E2175C6AF8231E6DDBB27B1 /* MJPropertyType.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		174206A450C45E65A09563FEE1EA3DA7 /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD411B32AE5C34B155E2601E4556CF4 /* MJPropertyType.m */; };
-		253C3DC37B49553B049C04986B78CEBD /* MJPropertyKey.h in Headers */ = {isa = PBXBuildFile; fileRef = A33A78BAF8FD77CB88D5FF202588BE0E /* MJPropertyKey.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		29765CB05CE9FA4A2CEE05424C0AF136 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5181B3328332FEA4F1C638469DCDD110 /* MJFoundation.m */; };
-		29BD11FAB79791AAA2CD25BD4D5A2BAF /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 8861675B07C8004EB57DED4D04D756BE /* NSObject+MJKeyValue.m */; };
-		34E253EB078AE14E619398EB86C16A2F /* MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 95860498B6A474C0204FA9B18CC1D040 /* MJExtension.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4B90704C9954AD4B1D3894941458B9DE /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2098FB5A1A2E35C03785B1DC884CBA /* NSString+MJExtension.m */; };
-		53904AC7D05BAAAB968AAA084AB04625 /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 861651EDF4FA787A3B7AA6D1559A7A80 /* NSObject+MJCoding.m */; };
-		5672C08B2E4A956A54FBBC0BFC17DC82 /* MJProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = A0810C1ACB46D0352326AE926F2919D3 /* MJProperty.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6D29803833E4A3A93AD4165AEC2A06E7 /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = E510AF9B21AC3CBF89380E8DC331AACF /* MJExtensionConst.m */; };
-		75BCAD159F48A7F49337FCA96437148E /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 3163D42D41E0B260E40EEDA552BB4FA4 /* NSObject+MJProperty.m */; };
-		78F55DC767AEA052701BFFFAF2E63E9F /* NSObject+MJKeyValue.h in Headers */ = {isa = PBXBuildFile; fileRef = DB44FFB7D1CE6F9842741410BC060055 /* NSObject+MJKeyValue.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		822B66E63ED92684C095C8BF6F55F9BE /* NSObject+MJProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = CBC153F25E4C86EC2845170FD8F04C66 /* NSObject+MJProperty.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		99B7688A77DE2E48E52D0F5B26E24CCA /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 36383B480C538A579F389B49DD914427 /* MJPropertyKey.m */; };
-		9A118C01C80CDBD88A3CE9F9ED917B40 /* MJExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCAD1D680551382BE02D5E789689180 /* MJExtension-dummy.m */; };
-		A34EF90FD9DB3AB735F37BBC82B7C941 /* NSObject+MJClass.h in Headers */ = {isa = PBXBuildFile; fileRef = F1079D13B3866570387B957FA86D2231 /* NSObject+MJClass.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B6359596A32B855FAD947ED012D5492F /* MJFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B627F6EF7EB69D7FB586E8BB1D8180C /* MJFoundation.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BEA2806A316E9E55639261BB27C6B99B /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = E83D29B6AD18C03298F29614794F58F9 /* NSObject+MJClass.m */; };
-		CFCBD475DFCF03FBDC7A6F5877B3E257 /* Pods-OC学习笔记-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E9061FB72FDF2A818C64D831627D0AB3 /* Pods-OC学习笔记-dummy.m */; };
-		D893D6C7E5B0E596BA3C0AB454321280 /* MJExtensionConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FBE2AD8EEABA0C1949269C243042E29 /* MJExtensionConst.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		DD7095E416D8763B2BB1D6E306C91EAC /* NSObject+MJCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 17527B91F92ED030928664A19F3DF173 /* NSObject+MJCoding.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		EE063BC538B8FD4EBADFEAF85D731173 /* NSString+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = B1F3D582BE319E8D65E9DDC4CB1A205E /* NSString+MJExtension.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0E62A7BD7A3829532433091FDE652B95 /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 99215FC19C2341C6DBB3AA254BC596AF /* MJProperty.m */; };
+		1609407914B4474BD6125FC9C2BCDE67 /* MJPropertyType.h in Headers */ = {isa = PBXBuildFile; fileRef = 8498DDD996706BD99543033AB7771AB2 /* MJPropertyType.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		174206A450C45E65A09563FEE1EA3DA7 /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = F3FE07255E1FBB1F52FE028E3766EB32 /* MJPropertyType.m */; };
+		253C3DC37B49553B049C04986B78CEBD /* MJPropertyKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 649901DFC74642FF7268C8A058A40724 /* MJPropertyKey.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		29765CB05CE9FA4A2CEE05424C0AF136 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD2C251D070AB997E81B2FC0E6C000C /* MJFoundation.m */; };
+		29BD11FAB79791AAA2CD25BD4D5A2BAF /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B1E7AD104BFE0FACFA944012BF3473 /* NSObject+MJKeyValue.m */; };
+		34E253EB078AE14E619398EB86C16A2F /* MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = B053FE1FAEFD0C1E3DE55D9864CFB5A0 /* MJExtension.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4B90704C9954AD4B1D3894941458B9DE /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C79595D518FA51262A9BBF30CDAC142 /* NSString+MJExtension.m */; };
+		53904AC7D05BAAAB968AAA084AB04625 /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 226712713A915343D93FAE87D3D44E96 /* NSObject+MJCoding.m */; };
+		5672C08B2E4A956A54FBBC0BFC17DC82 /* MJProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = B8AC56DDD681CBB8AE84179573894157 /* MJProperty.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6D29803833E4A3A93AD4165AEC2A06E7 /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 1517BD33ED5087B0FF3A1DAE0D4C3431 /* MJExtensionConst.m */; };
+		75BCAD159F48A7F49337FCA96437148E /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = D836E844BEF3A0F3EADDE4FB18EB7355 /* NSObject+MJProperty.m */; };
+		78F55DC767AEA052701BFFFAF2E63E9F /* NSObject+MJKeyValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 31EA230260C04FA23890772754C8280C /* NSObject+MJKeyValue.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		822B66E63ED92684C095C8BF6F55F9BE /* NSObject+MJProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = A397EA5BA7827964CCF734AAAAFE9F36 /* NSObject+MJProperty.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		99B7688A77DE2E48E52D0F5B26E24CCA /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E84642D1227C618106C8756D8D6E55F /* MJPropertyKey.m */; };
+		9A118C01C80CDBD88A3CE9F9ED917B40 /* MJExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C61301720055FC296DA906A28B50DD /* MJExtension-dummy.m */; };
+		A34EF90FD9DB3AB735F37BBC82B7C941 /* NSObject+MJClass.h in Headers */ = {isa = PBXBuildFile; fileRef = ECEBC5740CF57CADB5B605947A7C8E01 /* NSObject+MJClass.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B6359596A32B855FAD947ED012D5492F /* MJFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E4AC2C458D87DF97CB124DC5AFDC7C3 /* MJFoundation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BEA2806A316E9E55639261BB27C6B99B /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A8BE44FA3B354A6E41F9F25924C848 /* NSObject+MJClass.m */; };
+		D893D6C7E5B0E596BA3C0AB454321280 /* MJExtensionConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 128B036139FA8611478CCEF4B11622A9 /* MJExtensionConst.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DD7095E416D8763B2BB1D6E306C91EAC /* NSObject+MJCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E31947311AE930CB04B063991E530D8 /* NSObject+MJCoding.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DFC5AB5C5A7F720F75AF7065B6109548 /* Pods-OC学习笔记-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E9061FB72FDF2A818C64D831627D0AB3 /* Pods-OC学习笔记-dummy.m */; };
+		EE063BC538B8FD4EBADFEAF85D731173 /* NSString+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = CB805A40095D0FAE3EC4801648C8C8E3 /* NSString+MJExtension.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		12ECD2E98345E5CC1E394363998C9D6A /* PBXContainerItemProxy */ = {
+		D44D9A9B04D7EF4B8A890498480AEBE0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 4D3BA58D0583DF37575CACAB3DDADC85;
 			remoteInfo = MJExtension;
 		};
-		902AAF0972B15E7C7AFF93F8D2E7CB5E /* PBXContainerItemProxy */ = {
+		EA8408C4FEF1118ADCDE878398321B8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8554F6236D2AA202CF58503D2DF29730;
+			remoteInfo = WechatOpenSDK;
+		};
+		F5AE00FEB3530866A53CE2BEF3913557 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -63,45 +79,50 @@
 
 /* Begin PBXFileReference section */
 		0E475616C0164C187FF815A31DDBB1A3 /* libPods-OC学习笔记.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-OC学习笔记.a"; path = "libPods-OC学习笔记.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		17527B91F92ED030928664A19F3DF173 /* NSObject+MJCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJCoding.h"; path = "MJExtension/NSObject+MJCoding.h"; sourceTree = "<group>"; };
-		1B627F6EF7EB69D7FB586E8BB1D8180C /* MJFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJFoundation.h; path = MJExtension/MJFoundation.h; sourceTree = "<group>"; };
-		2A2098FB5A1A2E35C03785B1DC884CBA /* NSString+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+MJExtension.m"; path = "MJExtension/NSString+MJExtension.m"; sourceTree = "<group>"; };
+		128B036139FA8611478CCEF4B11622A9 /* MJExtensionConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJExtensionConst.h; path = MJExtension/MJExtensionConst.h; sourceTree = "<group>"; };
+		1517BD33ED5087B0FF3A1DAE0D4C3431 /* MJExtensionConst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJExtensionConst.m; path = MJExtension/MJExtensionConst.m; sourceTree = "<group>"; };
+		226712713A915343D93FAE87D3D44E96 /* NSObject+MJCoding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJCoding.m"; path = "MJExtension/NSObject+MJCoding.m"; sourceTree = "<group>"; };
 		2B276B0A79173A1D6E83C9B4FB9A4A57 /* libMJExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMJExtension.a; path = libMJExtension.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		3163D42D41E0B260E40EEDA552BB4FA4 /* NSObject+MJProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJProperty.m"; path = "MJExtension/NSObject+MJProperty.m"; sourceTree = "<group>"; };
-		36383B480C538A579F389B49DD914427 /* MJPropertyKey.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJPropertyKey.m; path = MJExtension/MJPropertyKey.m; sourceTree = "<group>"; };
-		5181B3328332FEA4F1C638469DCDD110 /* MJFoundation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJFoundation.m; path = MJExtension/MJFoundation.m; sourceTree = "<group>"; };
-		65ED8C1AAC5B7F63707A4ADAD702AF8A /* MJExtension.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJExtension.xcconfig; sourceTree = "<group>"; };
-		6FBBCB340F476B4128A98EC1ABB2B9AA /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
-		7DE9736E7923567D6E71D436A73AF6B6 /* AlipaySDK-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "AlipaySDK-iOS.xcconfig"; sourceTree = "<group>"; };
-		7FBE2AD8EEABA0C1949269C243042E29 /* MJExtensionConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJExtensionConst.h; path = MJExtension/MJExtensionConst.h; sourceTree = "<group>"; };
+		2DD7CA3199E4DAB793CBF37DFAB79ACF /* MJExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJExtension-prefix.pch"; sourceTree = "<group>"; };
+		31EA230260C04FA23890772754C8280C /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJKeyValue.h"; path = "MJExtension/NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		3AD2C251D070AB997E81B2FC0E6C000C /* MJFoundation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJFoundation.m; path = MJExtension/MJFoundation.m; sourceTree = "<group>"; };
+		45C61301720055FC296DA906A28B50DD /* MJExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MJExtension-dummy.m"; sourceTree = "<group>"; };
+		4C79595D518FA51262A9BBF30CDAC142 /* NSString+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+MJExtension.m"; path = "MJExtension/NSString+MJExtension.m"; sourceTree = "<group>"; };
+		4F2AB3E4A83D2E38550C0B3B906AF4E0 /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = WeChatSDK1.8.6.1/WechatAuthSDK.h; sourceTree = "<group>"; };
+		545EF5E30C5CBDC4D3D273AD7CFBAF47 /* AlipaySDK-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "AlipaySDK-iOS.xcconfig"; sourceTree = "<group>"; };
+		58A8BE44FA3B354A6E41F9F25924C848 /* NSObject+MJClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJClass.m"; path = "MJExtension/NSObject+MJClass.m"; sourceTree = "<group>"; };
+		639406430AAD83BAA2D23D01120AAEA8 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
+		649901DFC74642FF7268C8A058A40724 /* MJPropertyKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJPropertyKey.h; path = MJExtension/MJPropertyKey.h; sourceTree = "<group>"; };
+		680C2BBC9F89359A1A4BF23618B4F4A1 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = WeChatSDK1.8.6.1/WXApiObject.h; sourceTree = "<group>"; };
+		6E4AC2C458D87DF97CB124DC5AFDC7C3 /* MJFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJFoundation.h; path = MJExtension/MJFoundation.h; sourceTree = "<group>"; };
+		77880F27AB52E258B86616FF8CE9BA30 /* MJExtension.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJExtension.xcconfig; sourceTree = "<group>"; };
+		7E84642D1227C618106C8756D8D6E55F /* MJPropertyKey.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJPropertyKey.m; path = MJExtension/MJPropertyKey.m; sourceTree = "<group>"; };
 		83051E40F752432CF77A7EB8B7D53A4F /* Pods-OC学习笔记-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OC学习笔记-resources.sh"; sourceTree = "<group>"; };
-		861651EDF4FA787A3B7AA6D1559A7A80 /* NSObject+MJCoding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJCoding.m"; path = "MJExtension/NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		8498DDD996706BD99543033AB7771AB2 /* MJPropertyType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJPropertyType.h; path = MJExtension/MJPropertyType.h; sourceTree = "<group>"; };
 		877F17DF097BFA0FBA4AB219D66CEA72 /* Pods-OC学习笔记.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OC学习笔记.debug.xcconfig"; sourceTree = "<group>"; };
-		8861675B07C8004EB57DED4D04D756BE /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJKeyValue.m"; path = "MJExtension/NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
 		89C348AAE2E04DF52550B870BD3D59ED /* Pods-OC学习笔记.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OC学习笔记.release.xcconfig"; sourceTree = "<group>"; };
+		8E31947311AE930CB04B063991E530D8 /* NSObject+MJCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJCoding.h"; path = "MJExtension/NSObject+MJCoding.h"; sourceTree = "<group>"; };
 		8FB3AD81E9CE99180F8E301412A8C97A /* Pods-OC学习笔记-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OC学习笔记-acknowledgements.plist"; sourceTree = "<group>"; };
-		95860498B6A474C0204FA9B18CC1D040 /* MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJExtension.h; path = MJExtension/MJExtension.h; sourceTree = "<group>"; };
+		92FF12A83C98764FF8BB756765A2338A /* WechatOpenSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WechatOpenSDK.xcconfig; sourceTree = "<group>"; };
+		99215FC19C2341C6DBB3AA254BC596AF /* MJProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJProperty.m; path = MJExtension/MJProperty.m; sourceTree = "<group>"; };
+		99AA575399DC196A7ECB28B7139026D4 /* AlipaySDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A0810C1ACB46D0352326AE926F2919D3 /* MJProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJProperty.h; path = MJExtension/MJProperty.h; sourceTree = "<group>"; };
-		A33A78BAF8FD77CB88D5FF202588BE0E /* MJPropertyKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJPropertyKey.h; path = MJExtension/MJPropertyKey.h; sourceTree = "<group>"; };
-		B1F3D582BE319E8D65E9DDC4CB1A205E /* NSString+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+MJExtension.h"; path = "MJExtension/NSString+MJExtension.h"; sourceTree = "<group>"; };
+		A397EA5BA7827964CCF734AAAAFE9F36 /* NSObject+MJProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJProperty.h"; path = "MJExtension/NSObject+MJProperty.h"; sourceTree = "<group>"; };
+		B053FE1FAEFD0C1E3DE55D9864CFB5A0 /* MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJExtension.h; path = MJExtension/MJExtension.h; sourceTree = "<group>"; };
 		B3843393EE8BEDEC82CDF1D9AA217882 /* Pods-OC学习笔记-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OC学习笔记-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B54E69D6CB4675402C46C1A15F073314 /* AlipaySDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
-		BAD411B32AE5C34B155E2601E4556CF4 /* MJPropertyType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJPropertyType.m; path = MJExtension/MJPropertyType.m; sourceTree = "<group>"; };
-		C31E461D066238DA6CD49128EE3C08FB /* MJProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJProperty.m; path = MJExtension/MJProperty.m; sourceTree = "<group>"; };
-		CBC153F25E4C86EC2845170FD8F04C66 /* NSObject+MJProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJProperty.h"; path = "MJExtension/NSObject+MJProperty.h"; sourceTree = "<group>"; };
-		CFCAD1D680551382BE02D5E789689180 /* MJExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MJExtension-dummy.m"; sourceTree = "<group>"; };
-		D0BC1F7524B2C016352FA90414D0B09A /* MJExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJExtension-prefix.pch"; sourceTree = "<group>"; };
-		D2561CEA6E2175C6AF8231E6DDBB27B1 /* MJPropertyType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJPropertyType.h; path = MJExtension/MJPropertyType.h; sourceTree = "<group>"; };
-		DB44FFB7D1CE6F9842741410BC060055 /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJKeyValue.h"; path = "MJExtension/NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
-		E510AF9B21AC3CBF89380E8DC331AACF /* MJExtensionConst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJExtensionConst.m; path = MJExtension/MJExtensionConst.m; sourceTree = "<group>"; };
-		E83D29B6AD18C03298F29614794F58F9 /* NSObject+MJClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJClass.m"; path = "MJExtension/NSObject+MJClass.m"; sourceTree = "<group>"; };
+		B3B1E7AD104BFE0FACFA944012BF3473 /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJKeyValue.m"; path = "MJExtension/NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		B8AC56DDD681CBB8AE84179573894157 /* MJProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJProperty.h; path = MJExtension/MJProperty.h; sourceTree = "<group>"; };
+		CB805A40095D0FAE3EC4801648C8C8E3 /* NSString+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+MJExtension.h"; path = "MJExtension/NSString+MJExtension.h"; sourceTree = "<group>"; };
+		D836E844BEF3A0F3EADDE4FB18EB7355 /* NSObject+MJProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJProperty.m"; path = "MJExtension/NSObject+MJProperty.m"; sourceTree = "<group>"; };
 		E9061FB72FDF2A818C64D831627D0AB3 /* Pods-OC学习笔记-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OC学习笔记-dummy.m"; sourceTree = "<group>"; };
-		F1079D13B3866570387B957FA86D2231 /* NSObject+MJClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJClass.h"; path = "MJExtension/NSObject+MJClass.h"; sourceTree = "<group>"; };
+		E9C6F740DC44CCE3D9C32E9E7F048189 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = WeChatSDK1.8.6.1/WXApi.h; sourceTree = "<group>"; };
+		ECEBC5740CF57CADB5B605947A7C8E01 /* NSObject+MJClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJClass.h"; path = "MJExtension/NSObject+MJClass.h"; sourceTree = "<group>"; };
+		EFEF4552B1681D73DD1257BD4351D3BD /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = WeChatSDK1.8.6.1/libWeChatSDK.a; sourceTree = "<group>"; };
+		F3FE07255E1FBB1F52FE028E3766EB32 /* MJPropertyType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJPropertyType.m; path = MJExtension/MJPropertyType.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		83F2AC9F57330559E7A9392E31712C6D /* Frameworks */ = {
+		1748B07D78FB53CBB8A3448E0B8B54D1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -118,20 +139,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		01F78BCDE488C60889AACBB9602FF706 /* Frameworks */ = {
+		2354B242840BB60B798310B1000D64FF /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				6FBBCB340F476B4128A98EC1ABB2B9AA /* AlipaySDK.framework */,
+				92FF12A83C98764FF8BB756765A2338A /* WechatOpenSDK.xcconfig */,
 			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "../Target Support Files/WechatOpenSDK";
 			sourceTree = "<group>";
 		};
-		052228A53A5AB7DB6D1F91E36E21B02E /* Resources */ = {
+		416E85E3629D98979F263247437D38A5 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B54E69D6CB4675402C46C1A15F073314 /* AlipaySDK.bundle */,
+				77880F27AB52E258B86616FF8CE9BA30 /* MJExtension.xcconfig */,
+				45C61301720055FC296DA906A28B50DD /* MJExtension-dummy.m */,
+				2DD7CA3199E4DAB793CBF37DFAB79ACF /* MJExtension-prefix.pch */,
 			);
-			name = Resources;
+			name = "Support Files";
+			path = "../Target Support Files/MJExtension";
+			sourceTree = "<group>";
+		};
+		4364896ECFB17FA17B992E1FA15BFCF9 /* AlipaySDK-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AEDE7E0898EBE49BEF139A9C3CBE9513 /* Frameworks */,
+				A6819D59670FA444C3FBDC7A6EEC65CC /* Resources */,
+				D2169BC553A5B41FCB470931CEDD48D4 /* Support Files */,
+			);
+			name = "AlipaySDK-iOS";
+			path = "AlipaySDK-iOS";
+			sourceTree = "<group>";
+		};
+		4535690EB5A7B9659BEDA41463AEA10F /* WechatOpenSDK */ = {
+			isa = PBXGroup;
+			children = (
+				4F2AB3E4A83D2E38550C0B3B906AF4E0 /* WechatAuthSDK.h */,
+				E9C6F740DC44CCE3D9C32E9E7F048189 /* WXApi.h */,
+				680C2BBC9F89359A1A4BF23618B4F4A1 /* WXApiObject.h */,
+				8B0B9ACABAB100A426D231DC95A9213A /* Frameworks */,
+				2354B242840BB60B798310B1000D64FF /* Support Files */,
+			);
+			name = WechatOpenSDK;
+			path = WechatOpenSDK;
 			sourceTree = "<group>";
 		};
 		46B1A735BAD2697FA46551E45BA6A053 /* Pods-OC学习笔记 */ = {
@@ -148,26 +197,68 @@
 			path = "Target Support Files/Pods-OC学习笔记";
 			sourceTree = "<group>";
 		};
-		48C54403DED0B89865618EE6EEC8CF3C /* Support Files */ = {
+		53FB32E3F0EE2003617D4251D72176C6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				65ED8C1AAC5B7F63707A4ADAD702AF8A /* MJExtension.xcconfig */,
-				CFCAD1D680551382BE02D5E789689180 /* MJExtension-dummy.m */,
-				D0BC1F7524B2C016352FA90414D0B09A /* MJExtension-prefix.pch */,
+				4364896ECFB17FA17B992E1FA15BFCF9 /* AlipaySDK-iOS */,
+				8D39197905C1CE85E0E5C3AA647F60D5 /* MJExtension */,
+				4535690EB5A7B9659BEDA41463AEA10F /* WechatOpenSDK */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/MJExtension";
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		540306CEBA4A0C1E599B79E03E7C661F /* AlipaySDK-iOS */ = {
+		8B0B9ACABAB100A426D231DC95A9213A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				01F78BCDE488C60889AACBB9602FF706 /* Frameworks */,
-				052228A53A5AB7DB6D1F91E36E21B02E /* Resources */,
-				E08128ADFEFE749087E6BC66BC37C838 /* Support Files */,
+				EFEF4552B1681D73DD1257BD4351D3BD /* libWeChatSDK.a */,
 			);
-			name = "AlipaySDK-iOS";
-			path = "AlipaySDK-iOS";
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D39197905C1CE85E0E5C3AA647F60D5 /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				B053FE1FAEFD0C1E3DE55D9864CFB5A0 /* MJExtension.h */,
+				128B036139FA8611478CCEF4B11622A9 /* MJExtensionConst.h */,
+				1517BD33ED5087B0FF3A1DAE0D4C3431 /* MJExtensionConst.m */,
+				6E4AC2C458D87DF97CB124DC5AFDC7C3 /* MJFoundation.h */,
+				3AD2C251D070AB997E81B2FC0E6C000C /* MJFoundation.m */,
+				B8AC56DDD681CBB8AE84179573894157 /* MJProperty.h */,
+				99215FC19C2341C6DBB3AA254BC596AF /* MJProperty.m */,
+				649901DFC74642FF7268C8A058A40724 /* MJPropertyKey.h */,
+				7E84642D1227C618106C8756D8D6E55F /* MJPropertyKey.m */,
+				8498DDD996706BD99543033AB7771AB2 /* MJPropertyType.h */,
+				F3FE07255E1FBB1F52FE028E3766EB32 /* MJPropertyType.m */,
+				ECEBC5740CF57CADB5B605947A7C8E01 /* NSObject+MJClass.h */,
+				58A8BE44FA3B354A6E41F9F25924C848 /* NSObject+MJClass.m */,
+				8E31947311AE930CB04B063991E530D8 /* NSObject+MJCoding.h */,
+				226712713A915343D93FAE87D3D44E96 /* NSObject+MJCoding.m */,
+				31EA230260C04FA23890772754C8280C /* NSObject+MJKeyValue.h */,
+				B3B1E7AD104BFE0FACFA944012BF3473 /* NSObject+MJKeyValue.m */,
+				A397EA5BA7827964CCF734AAAAFE9F36 /* NSObject+MJProperty.h */,
+				D836E844BEF3A0F3EADDE4FB18EB7355 /* NSObject+MJProperty.m */,
+				CB805A40095D0FAE3EC4801648C8C8E3 /* NSString+MJExtension.h */,
+				4C79595D518FA51262A9BBF30CDAC142 /* NSString+MJExtension.m */,
+				416E85E3629D98979F263247437D38A5 /* Support Files */,
+			);
+			name = MJExtension;
+			path = MJExtension;
+			sourceTree = "<group>";
+		};
+		A6819D59670FA444C3FBDC7A6EEC65CC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				99AA575399DC196A7ECB28B7139026D4 /* AlipaySDK.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AEDE7E0898EBE49BEF139A9C3CBE9513 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				639406430AAD83BAA2D23D01120AAEA8 /* AlipaySDK.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		B662E3F1BF821C6EDB22B1A529CF332F /* Targets Support Files */ = {
@@ -183,7 +274,7 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
-				EEF299D8FB81C5E84AD2F8F8FD2CB3B7 /* Pods */,
+				53FB32E3F0EE2003617D4251D72176C6 /* Pods */,
 				D03768D78FC12D89F39CF9CE8CE5B052 /* Products */,
 				B662E3F1BF821C6EDB22B1A529CF332F /* Targets Support Files */,
 			);
@@ -198,6 +289,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		D2169BC553A5B41FCB470931CEDD48D4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				545EF5E30C5CBDC4D3D273AD7CFBAF47 /* AlipaySDK-iOS.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AlipaySDK-iOS";
+			sourceTree = "<group>";
+		};
 		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -205,57 +305,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E08128ADFEFE749087E6BC66BC37C838 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7DE9736E7923567D6E71D436A73AF6B6 /* AlipaySDK-iOS.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/AlipaySDK-iOS";
-			sourceTree = "<group>";
-		};
-		EEF299D8FB81C5E84AD2F8F8FD2CB3B7 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				540306CEBA4A0C1E599B79E03E7C661F /* AlipaySDK-iOS */,
-				FFD4B501743DC40021F629C1153A5969 /* MJExtension */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		FFD4B501743DC40021F629C1153A5969 /* MJExtension */ = {
-			isa = PBXGroup;
-			children = (
-				95860498B6A474C0204FA9B18CC1D040 /* MJExtension.h */,
-				7FBE2AD8EEABA0C1949269C243042E29 /* MJExtensionConst.h */,
-				E510AF9B21AC3CBF89380E8DC331AACF /* MJExtensionConst.m */,
-				1B627F6EF7EB69D7FB586E8BB1D8180C /* MJFoundation.h */,
-				5181B3328332FEA4F1C638469DCDD110 /* MJFoundation.m */,
-				A0810C1ACB46D0352326AE926F2919D3 /* MJProperty.h */,
-				C31E461D066238DA6CD49128EE3C08FB /* MJProperty.m */,
-				A33A78BAF8FD77CB88D5FF202588BE0E /* MJPropertyKey.h */,
-				36383B480C538A579F389B49DD914427 /* MJPropertyKey.m */,
-				D2561CEA6E2175C6AF8231E6DDBB27B1 /* MJPropertyType.h */,
-				BAD411B32AE5C34B155E2601E4556CF4 /* MJPropertyType.m */,
-				F1079D13B3866570387B957FA86D2231 /* NSObject+MJClass.h */,
-				E83D29B6AD18C03298F29614794F58F9 /* NSObject+MJClass.m */,
-				17527B91F92ED030928664A19F3DF173 /* NSObject+MJCoding.h */,
-				861651EDF4FA787A3B7AA6D1559A7A80 /* NSObject+MJCoding.m */,
-				DB44FFB7D1CE6F9842741410BC060055 /* NSObject+MJKeyValue.h */,
-				8861675B07C8004EB57DED4D04D756BE /* NSObject+MJKeyValue.m */,
-				CBC153F25E4C86EC2845170FD8F04C66 /* NSObject+MJProperty.h */,
-				3163D42D41E0B260E40EEDA552BB4FA4 /* NSObject+MJProperty.m */,
-				B1F3D582BE319E8D65E9DDC4CB1A205E /* NSString+MJExtension.h */,
-				2A2098FB5A1A2E35C03785B1DC884CBA /* NSString+MJExtension.m */,
-				48C54403DED0B89865618EE6EEC8CF3C /* Support Files */,
-			);
-			name = MJExtension;
-			path = MJExtension;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		10B9356217CBDE15A6DF0AF57AA8386B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3304A9ABB8207833A11A244FD15FE9AF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -274,29 +333,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7291F3D056E35764740674E8D08F2765 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		0FD00C1208C65A822F17C8301DCBFE32 /* Pods-OC学习笔记 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 75028CB90C52D452CE0DDF2E7F577161 /* Build configuration list for PBXNativeTarget "Pods-OC学习笔记" */;
+			buildConfigurationList = 9B435B7B140C7C3E930E983F35C9661E /* Build configuration list for PBXNativeTarget "Pods-OC学习笔记" */;
 			buildPhases = (
-				7291F3D056E35764740674E8D08F2765 /* Headers */,
-				3622D2B14B0DAA4ED15B856C93BF29DB /* Sources */,
-				83F2AC9F57330559E7A9392E31712C6D /* Frameworks */,
+				10B9356217CBDE15A6DF0AF57AA8386B /* Headers */,
+				FBABB40AEF8C33B45FB18B4F09E9BBAF /* Sources */,
+				1748B07D78FB53CBB8A3448E0B8B54D1 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7EB5DA296270327EB775CA82604788B7 /* PBXTargetDependency */,
-				D0F8CFAF83498447FCF9B5D93F1F7F9B /* PBXTargetDependency */,
+				5C4A59F8A10C6EA300250BE6941B1585 /* PBXTargetDependency */,
+				A052E925345458C8AEFF3329E2562E23 /* PBXTargetDependency */,
+				4484898E573A5C5FD32900260978A65F /* PBXTargetDependency */,
 			);
 			name = "Pods-OC学习笔记";
 			productName = "Pods-OC学习笔记";
@@ -330,7 +383,7 @@
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -345,19 +398,12 @@
 				4847ACB1E2799345AA74D9E317048D58 /* AlipaySDK-iOS */,
 				4D3BA58D0583DF37575CACAB3DDADC85 /* MJExtension */,
 				0FD00C1208C65A822F17C8301DCBFE32 /* Pods-OC学习笔记 */,
+				8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3622D2B14B0DAA4ED15B856C93BF29DB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CFCBD475DFCF03FBDC7A6F5877B3E257 /* Pods-OC学习笔记-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B4C32AA7EDE5529D38F255EC27A87885 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -376,27 +422,58 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FBABB40AEF8C33B45FB18B4F09E9BBAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFC5AB5C5A7F720F75AF7065B6109548 /* Pods-OC学习笔记-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7EB5DA296270327EB775CA82604788B7 /* PBXTargetDependency */ = {
+		4484898E573A5C5FD32900260978A65F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WechatOpenSDK;
+			target = 8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */;
+			targetProxy = EA8408C4FEF1118ADCDE878398321B8C /* PBXContainerItemProxy */;
+		};
+		5C4A59F8A10C6EA300250BE6941B1585 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "AlipaySDK-iOS";
 			target = 4847ACB1E2799345AA74D9E317048D58 /* AlipaySDK-iOS */;
-			targetProxy = 902AAF0972B15E7C7AFF93F8D2E7CB5E /* PBXContainerItemProxy */;
+			targetProxy = F5AE00FEB3530866A53CE2BEF3913557 /* PBXContainerItemProxy */;
 		};
-		D0F8CFAF83498447FCF9B5D93F1F7F9B /* PBXTargetDependency */ = {
+		A052E925345458C8AEFF3329E2562E23 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MJExtension;
 			target = 4D3BA58D0583DF37575CACAB3DDADC85 /* MJExtension */;
-			targetProxy = 12ECD2E98345E5CC1E394363998C9D6A /* PBXContainerItemProxy */;
+			targetProxy = D44D9A9B04D7EF4B8A890498480AEBE0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		2592D70F4919E1A39690DAB86B593A00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92FF12A83C98764FF8BB756765A2338A /* WechatOpenSDK.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		3EDB01CBD3BE7EB736CD267394B4160F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7DE9736E7923567D6E71D436A73AF6B6 /* AlipaySDK-iOS.xcconfig */;
+			baseConfigurationReference = 545EF5E30C5CBDC4D3D273AD7CFBAF47 /* AlipaySDK-iOS.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -412,7 +489,7 @@
 		};
 		570BB86156E99EBCDDC58774372A0595 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 65ED8C1AAC5B7F63707A4ADAD702AF8A /* MJExtension.xcconfig */;
+			baseConfigurationReference = 77880F27AB52E258B86616FF8CE9BA30 /* MJExtension.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -436,7 +513,7 @@
 		};
 		606E4CCE93EECEF54D7353339D059157 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 65ED8C1AAC5B7F63707A4ADAD702AF8A /* MJExtension.xcconfig */;
+			baseConfigurationReference = 77880F27AB52E258B86616FF8CE9BA30 /* MJExtension.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -453,6 +530,22 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6774F28FD1EDE95AD481A20B2215BB5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92FF12A83C98764FF8BB756765A2338A /* WechatOpenSDK.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -583,7 +676,7 @@
 		};
 		AE6A3C63D2B496E6CEB67C7704F6E8DB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7DE9736E7923567D6E71D436A73AF6B6 /* AlipaySDK-iOS.xcconfig */;
+			baseConfigurationReference = 545EF5E30C5CBDC4D3D273AD7CFBAF47 /* AlipaySDK-iOS.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -598,7 +691,7 @@
 			};
 			name = Release;
 		};
-		DAE288288667138EF9BB71D41CEBF4CE /* Release */ = {
+		D35AF68BC6DD7DC0808A5A16833DF980 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 89C348AAE2E04DF52550B870BD3D59ED /* Pods-OC学习笔记.release.xcconfig */;
 			buildSettings = {
@@ -620,7 +713,7 @@
 			};
 			name = Release;
 		};
-		F6EA5D6C46D5C027244491FC993F40B9 /* Debug */ = {
+		E4E5FBA93221EAE5437F5B5757E7F3A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 877F17DF097BFA0FBA4AB219D66CEA72 /* Pods-OC学习笔记.debug.xcconfig */;
 			buildSettings = {
@@ -662,11 +755,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		75028CB90C52D452CE0DDF2E7F577161 /* Build configuration list for PBXNativeTarget "Pods-OC学习笔记" */ = {
+		4AF0DF2249DC5CF1F6B67BE5469CE54C /* Build configuration list for PBXAggregateTarget "WechatOpenSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F6EA5D6C46D5C027244491FC993F40B9 /* Debug */,
-				DAE288288667138EF9BB71D41CEBF4CE /* Release */,
+				6774F28FD1EDE95AD481A20B2215BB5F /* Debug */,
+				2592D70F4919E1A39690DAB86B593A00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -676,6 +769,15 @@
 			buildConfigurations = (
 				606E4CCE93EECEF54D7353339D059157 /* Debug */,
 				570BB86156E99EBCDDC58774372A0595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B435B7B140C7C3E930E983F35C9661E /* Build configuration list for PBXNativeTarget "Pods-OC学习笔记" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4E5FBA93221EAE5437F5B5757E7F3A8 /* Debug */,
+				D35AF68BC6DD7DC0808A5A16833DF980 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
