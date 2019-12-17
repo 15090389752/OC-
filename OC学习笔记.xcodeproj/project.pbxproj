@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C44D9D123A8722300827C35 /* AlipayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C44D9CF23A8722300827C35 /* AlipayManager.m */; };
 		3C5437C023A0F24B0075E6DF /* LLToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C5437BF23A0F24B0075E6DF /* LLToast.m */; };
 		3C5437C923A248680075E6DF /* UIDevice+TFDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C5437C823A248680075E6DF /* UIDevice+TFDevice.m */; };
 		3C5437CC23A249BC0075E6DF /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C5437CB23A249BC0075E6DF /* FirstViewController.m */; };
@@ -39,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C44D9CF23A8722300827C35 /* AlipayManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlipayManager.m; sourceTree = "<group>"; };
+		3C44D9D023A8722300827C35 /* AlipayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlipayManager.h; sourceTree = "<group>"; };
 		3C5437BE23A0F24B0075E6DF /* LLToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLToast.h; sourceTree = "<group>"; };
 		3C5437BF23A0F24B0075E6DF /* LLToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLToast.m; sourceTree = "<group>"; };
 		3C5437C723A248680075E6DF /* UIDevice+TFDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIDevice+TFDevice.h"; sourceTree = "<group>"; };
@@ -101,6 +104,15 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		3C44D9CE23A8720F00827C35 /* 支付宝 */ = {
+			isa = PBXGroup;
+			children = (
+				3C44D9D023A8722300827C35 /* AlipayManager.h */,
+				3C44D9CF23A8722300827C35 /* AlipayManager.m */,
+			);
+			path = "支付宝";
+			sourceTree = "<group>";
+		};
 		3C4D328923A335A700878E0E /* 强制横竖屏 */ = {
 			isa = PBXGroup;
 			children = (
@@ -137,6 +149,7 @@
 		3CC87D042394E6EB002C8BF5 /* OC学习笔记 */ = {
 			isa = PBXGroup;
 			children = (
+				3C44D9CE23A8720F00827C35 /* 支付宝 */,
 				3C4D328923A335A700878E0E /* 强制横竖屏 */,
 				3C5437BE23A0F24B0075E6DF /* LLToast.h */,
 				3C5437BF23A0F24B0075E6DF /* LLToast.m */,
@@ -190,6 +203,7 @@
 				3CC87CFE2394E6EB002C8BF5 /* Sources */,
 				3CC87CFF2394E6EB002C8BF5 /* Frameworks */,
 				3CC87D002394E6EB002C8BF5 /* Resources */,
+				575B7DFAACE4E627052F2A8D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -328,6 +342,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		575B7DFAACE4E627052F2A8D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OC学习笔记/Pods-OC学习笔记-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OC学习笔记/Pods-OC学习笔记-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OC学习笔记/Pods-OC学习笔记-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -338,6 +369,7 @@
 				3CC87D0A2394E6EB002C8BF5 /* ViewController.m in Sources */,
 				3C5437CC23A249BC0075E6DF /* FirstViewController.m in Sources */,
 				3CC87D152394E6ED002C8BF5 /* main.m in Sources */,
+				3C44D9D123A8722300827C35 /* AlipayManager.m in Sources */,
 				3C5437C923A248680075E6DF /* UIDevice+TFDevice.m in Sources */,
 				3CC87D072394E6EB002C8BF5 /* AppDelegate.m in Sources */,
 				3C5437C023A0F24B0075E6DF /* LLToast.m in Sources */,

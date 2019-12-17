@@ -11,6 +11,7 @@
 #import "UIDevice+TFDevice.h"
 #import "LLToast.h"
 #import "AppDelegate.h"
+#import "AlipayManager.h"
 #define iphoneX ([[UIApplication sharedApplication] statusBarFrame].size.height>20?YES:NO)
 #define kNavBarHeight (iphoneX ? 88.0 : 64.0)
 
@@ -26,9 +27,12 @@
 - (IBAction)showBtn:(id)sender {
 //    [LLToast showWithText:@"nilao" duration:2.0];
     
-    FirstViewController *firstVC = [[FirstViewController alloc]init];
-    [self.navigationController pushViewController:firstVC animated:YES];
+//    FirstViewController *firstVC = [[FirstViewController alloc]init];
+//    [self.navigationController pushViewController:firstVC animated:YES];
     
+    [[AlipayManager sharedManager]aliPay:@"nihao" block:^(BOOL YESOrNO) {
+        NSLog(@"YESOrNO === %d", YESOrNO);
+    }];
     
     
 }

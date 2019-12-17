@@ -9,7 +9,10 @@
 #import "FirstViewController.h"
 #import "UIDevice+TFDevice.h"
 #import "AppDelegate.h"
-@interface FirstViewController ()
+@interface FirstViewController ()<UITableViewDelegate, UITableViewDataSource>
+
+@property(nonatomic, strong)UITableView *tableView;
+
 
 @end
 
@@ -38,8 +41,34 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
+    
+    [self.view addSubview:self.tableView];
    
 }
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return 40;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
+    if (!cell) {
+        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"];
+    }
+    cell.textLabel.text = [NSString stringWithFormat:@"%ld", (long)indexPath.row];
+    return cell;
+}
+
+- (UITableView *)tableView{
+    if (!_tableView) {
+        _tableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height) style:UITableViewStylePlain];
+        _tableView.delegate = self;
+        _tableView.dataSource = self;
+        [_tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
+    }
+    return _tableView;
+}
+
 
 
 @end

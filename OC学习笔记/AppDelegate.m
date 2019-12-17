@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "AlipayManager.h"
 @interface AppDelegate ()
 
 @end
@@ -34,6 +34,11 @@
         
     }
     
+}
+
+- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options{
+    [[AlipayManager sharedManager]PayResoult:url];
+    return YES;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
