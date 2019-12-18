@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C325C4023A9B97600213D3C /* HDMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C325C3F23A9B97600213D3C /* HDMainViewController.m */; };
 		3C44D9D123A8722300827C35 /* AlipayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C44D9CF23A8722300827C35 /* AlipayManager.m */; };
 		3C44D9D523A87D9F00827C35 /* WXManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C44D9D423A87D9F00827C35 /* WXManager.m */; };
 		3C5437C023A0F24B0075E6DF /* LLToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C5437BF23A0F24B0075E6DF /* LLToast.m */; };
@@ -41,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C325C3E23A9B97600213D3C /* HDMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDMainViewController.h; sourceTree = "<group>"; };
+		3C325C3F23A9B97600213D3C /* HDMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDMainViewController.m; sourceTree = "<group>"; };
+		3C325C4123A9B9DF00213D3C /* UserHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserHeader.h; sourceTree = "<group>"; };
+		3C325C4223A9BAFE00213D3C /* DriverHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DriverHeader.pch; sourceTree = "<group>"; };
 		3C44D9CF23A8722300827C35 /* AlipayManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlipayManager.m; sourceTree = "<group>"; };
 		3C44D9D023A8722300827C35 /* AlipayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlipayManager.h; sourceTree = "<group>"; };
 		3C44D9D323A87D9F00827C35 /* WXManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXManager.h; sourceTree = "<group>"; };
@@ -107,6 +112,15 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		3C325C3A23A9B8DF00213D3C /* driver界面 */ = {
+			isa = PBXGroup;
+			children = (
+				3C325C3E23A9B97600213D3C /* HDMainViewController.h */,
+				3C325C3F23A9B97600213D3C /* HDMainViewController.m */,
+			);
+			path = "driver界面";
+			sourceTree = "<group>";
+		};
 		3C44D9CE23A8720F00827C35 /* 支付宝 */ = {
 			isa = PBXGroup;
 			children = (
@@ -171,6 +185,9 @@
 				3CC87D082394E6EB002C8BF5 /* ViewController.h */,
 				3CC87D092394E6EB002C8BF5 /* ViewController.m */,
 				3CC87D0B2394E6EB002C8BF5 /* Main.storyboard */,
+				3C325C4223A9BAFE00213D3C /* DriverHeader.pch */,
+				3C325C4123A9B9DF00213D3C /* UserHeader.h */,
+				3C325C3A23A9B8DF00213D3C /* driver界面 */,
 				3CC87D0E2394E6ED002C8BF5 /* Assets.xcassets */,
 				3CC87D102394E6ED002C8BF5 /* LaunchScreen.storyboard */,
 				3CC87D132394E6ED002C8BF5 /* Info.plist */,
@@ -380,6 +397,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C44D9D523A87D9F00827C35 /* WXManager.m in Sources */,
+				3C325C4023A9B97600213D3C /* HDMainViewController.m in Sources */,
 				3CC87D0A2394E6EB002C8BF5 /* ViewController.m in Sources */,
 				3C5437CC23A249BC0075E6DF /* FirstViewController.m in Sources */,
 				3CC87D152394E6ED002C8BF5 /* main.m in Sources */,
@@ -560,6 +578,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5JV3AY27JS;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/OC学习笔记/DriverHeader.pch";
 				INFOPLIST_FILE = "OC学习笔记/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -578,6 +597,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5JV3AY27JS;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/OC学习笔记/DriverHeader.pch";
 				INFOPLIST_FILE = "OC学习笔记/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
