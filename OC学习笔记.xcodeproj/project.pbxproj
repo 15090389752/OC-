@@ -121,13 +121,6 @@
 			path = "driver界面";
 			sourceTree = "<group>";
 		};
-		3C325C4323A9CFF100213D3C /* 你好 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "你好";
-			sourceTree = "<group>";
-		};
 		3C44D9CE23A8720F00827C35 /* 支付宝 */ = {
 			isa = PBXGroup;
 			children = (
@@ -182,7 +175,6 @@
 		3CC87D042394E6EB002C8BF5 /* OC学习笔记 */ = {
 			isa = PBXGroup;
 			children = (
-				3C325C4323A9CFF100213D3C /* 你好 */,
 				3C44D9D223A87A2700827C35 /* 微信回调处理 */,
 				3C44D9CE23A8720F00827C35 /* 支付宝 */,
 				3C4D328923A335A700878E0E /* 强制横竖屏 */,
